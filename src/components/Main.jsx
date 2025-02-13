@@ -16,10 +16,10 @@ const Main = () => {
                     </p>
                     <div className="mt-6 space-x-4">
                         <button className="bg-green-500 px-6 py-2 rounded-full text-white font-semibold hover:bg-green-600">
-                            Hire Me
+                            <a href="/Contact">Hire Me</a>
                         </button>
                         <button className="border border-white px-6 py-2 rounded-full hover:bg-white hover:text-gray-900">
-                            My Portfolio
+                            <a href="/Portfolio">My Portfolio</a>
                         </button>
                     </div>
                 </div>
@@ -31,10 +31,8 @@ const Main = () => {
                         className="w-1/3 rounded-lg shadow-lg"
                     />
                     <div className="md:ml-10 text-center md:text-left">
-                        <h3 className="text-2xl font-semibold">
+                        <p className="text-2xl font-semibold">
                             A Lead UI Designer & Web Developer Based in UK
-                        </h3>
-                        <p className="mt-4 text-gray-700">
                             Passionate about crafting digital experiences that
                             combine aesthetics with functionality.
                         </p>
@@ -43,16 +41,25 @@ const Main = () => {
                         </p>
                         <p className="text-gray-600">Phone: +21 234 567 8901</p>
                         <div className="flex space-x-4 mt-4 text-gray-600">
-                            <FaLinkedin className="text-xl cursor-pointer hover:text-blue-600" />
-                            <FaFacebookF className="text-xl cursor-pointer hover:text-blue-400" />
-                            <FaXTwitter className="text-xl cursor-pointer hover:text-blue-500" />
+                            <a href="http://Linkedin.com" target="_blank">
+                                <FaLinkedin className="text-xl cursor-pointer hover:text-blue-600" />
+                            </a>
+
+                            <a href="http://Facebook.com" target="_blank">
+                                <FaFacebookF className="text-xl cursor-pointer hover:text-blue-400" />
+                            </a>
+                            <a href="http://x.com" target="_blank">
+                                <FaXTwitter className="text-xl cursor-pointer hover:text-blue-500" />
+                            </a>
                         </div>
                         <div className="mt-6 space-x-4">
                             <button className="bg-green-500 px-6 py-2 rounded-full text-white font-semibold hover:bg-green-600">
-                                Hire Me
+                                <a href="/Contact">Hire Me</a>
                             </button>
                             <button className="border border-gray-800 px-6 py-2 rounded-full hover:bg-gray-800 hover:text-white">
-                                Download CV
+                                <a href="./public/cv.pdf" download="cv.pdf">
+                                    Download My CV
+                                </a>
                             </button>
                         </div>
                     </div>

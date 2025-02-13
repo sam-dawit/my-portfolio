@@ -1,38 +1,44 @@
 # Personal Portfolio Website
 
-A modern, responsive portfolio website built with React, Vite, and Tailwind CSS.
+A modern, responsive portfolio website showcasing my professional work and services. Built with React, Vite, and Tailwind CSS.
 
-## Features
+## 🌟 Features
 
--   🎨 Modern UI/UX design
--   📱 Fully responsive layout
--   🚀 Fast performance with Vite
--   🎯 Clean and maintainable React components
--   💅 Styled with Tailwind CSS
--   🔗 React Router for seamless navigation
+-   Modern and clean UI/UX design
+-   Fully responsive layout for all devices
+-   Fast performance with Vite
+-   Component-based architecture with React
+-   Elegant styling with Tailwind CSS
+-   Smooth navigation with React Router
+-   Interactive project showcase
+-   Contact form with validation
+-   Social media integration
+-   Downloadable CV option
 
-## Pages
+## 🔧 Tech Stack
 
--   🏠 Home - Introduction and hero section
--   👤 About - Personal information and background
--   💼 Portfolio - Showcase of projects
--   🛠️ Services - Professional services offered
--   📞 Contact - Get in touch form
+-   **Frontend Framework:** React 18
+-   **Build Tool:** Vite 4
+-   **Styling:** Tailwind CSS 3
+-   **Routing:** React Router DOM 6
+-   **Icons:** React Icons
+-   **State Management:** React Hooks
+-   **Form Handling:** Controlled Components
 
-## Tech Stack
+## 📱 Pages & Components
 
--   React 19
--   Vite 6
--   Tailwind CSS 4
--   React Router DOM 7
--   React Icons 5
+-   **Home:** Introduction with hero section and social links
+-   **About:** Professional background and skills
+-   **Services:** Offered professional services
+-   **Portfolio:** Interactive project showcase with filters
+-   **Contact:** Contact form with validation
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
--   Node.js (v16 or higher recommended)
--   npm or yarn
+-   Node.js (v16 or higher)
+-   npm or yarn package manager
 
 ### Installation
 
